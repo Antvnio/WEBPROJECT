@@ -1,0 +1,70 @@
+body {
+ margin: 0;
+ padding: 0;
+  background-image: url(Homeb.jpg);
+    background-size: cover;
+	    text-shadow: 2px 2px #000000;
+color: white;
+}
+
+p {
+    font-size: 28px;
+
+    text-shadow: 2px 2px #000000;
+ font-family: helvetica;
+}
+
+header div, main {
+ max-width: 960px; /* Controls the location of the text on the navigation bar*/
+ margin: 0 auto;
+ padding: 0 1em 0 1em;
+}
+
+header {
+ background: #e50606;
+ width: 100%;
+ top: 0;
+ position: fixed;
+}
+
+header h1 {
+ float: left;
+ font-family: helvetica;
+}
+
+main {
+ padding: 5em 1em 1em 1em;
+}
+
+header a {
+ text-decoration: none;
+ color: white;
+}
+
+header li {
+ display: inline-block;
+ margin-right: 1em;
+}
+
+header li a:hover {
+ color: black;
+}
+
+
+
+header ul {
+ float: right;
+ list-style-type: none;
+ padding-top: 1em;
+}
+
+
+
+/* unvisited link */
+
+/* mouse over link */
+a:hover {
+    color: #2b2b2b;
+}
+
+
